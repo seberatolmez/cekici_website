@@ -96,7 +96,7 @@ export default function Home() {
       <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow border-t-4 border-blue-500">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">Oto Çekici</h3>
         <p className="text-gray-700">
-          İzmir'in tüm bölgelerinde, arızalanan veya kaza yapan araçlarınıza hızlı müdahale. 
+          İzmir in tüm bölgelerinde, arızalanan veya kaza yapan araçlarınıza hızlı müdahale. 
           <strong> Uygun fiyatlı, güvenli</strong> ve <strong>zamanında</strong> çekici hizmeti sağlıyoruz.
         </p>
       </div>
