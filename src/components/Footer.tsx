@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaPhone, FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
+import { FaPhone, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Footer() {
   const phoneNumber = "+90 541 676 5318";

@@ -53,7 +53,7 @@ export default function AboutPage() {
           {/* Right: SEO Paragraph */}
           <div>
             <p className="text-lg text-gray-700">
-              <span className="font-bold text-blue-800">İzmir Bulut Oto Çekici</span> olarak, İzmir oto çekici ve yol yardım sektöründe yıllardır edindiğimiz tecrübe ile, müşteri memnuniyetini ve güvenli hizmeti ön planda tutuyoruz. 7/24 kesintisiz hizmet anlayışımız, hızlı müdahale süremiz ve İzmir'in tüm ilçelerine ulaşabilen geniş servis ağımız ile aracınız nerede olursa olsun yanınızdayız. Modern çekici filomuz ve uzman ekibimizle, <span className="font-semibold text-blue-800">İzmir çekici</span> ve yol yardım ihtiyaçlarınızda güvenilir çözüm ortağınız olmayı sürdürüyoruz.
+              <span className="font-bold text-blue-800">İzmir Bulut Oto Çekici</span> olarak, İzmir oto çekici ve yol yardım sektöründe yıllardır edindiğimiz tecrübe ile, müşteri memnuniyetini ve güvenli hizmeti ön planda tutuyoruz. 7/24 kesintisiz hizmet anlayışımız, hızlı müdahale süremiz ve İzmir&apos;in tüm ilçelerine ulaşabilen geniş servis ağımız ile aracınız nerede olursa olsun yanınızdayız. Modern çekici filomuz ve uzman ekibimizle, <span className="font-semibold text-blue-800">İzmir çekici</span> ve yol yardım ihtiyaçlarınızda güvenilir çözüm ortağınız olmayı sürdürüyoruz.
             </p>
           </div>
         </div>
@@ -69,8 +69,8 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-blue-900">Vizyonumuz & Misyonumuz</h2>
             </div>
             <div className="space-y-4 text-gray-700 text-lg">
-              <p><span className="font-semibold text-blue-800">Vizyonumuz:</span> İzmir'de oto çekici ve yol yardım sektöründe yenilikçi, güvenilir ve lider bir marka olmak.</p>
-              <p><span className="font-semibold text-blue-800">Misyonumuz:</span> 7/24 hızlı, güvenli ve kaliteli yol yardım ve çekici hizmetiyle İzmir'de her zaman yanınızda olmak.</p>
+              <p><span className="font-semibold text-blue-800">Vizyonumuz:</span> İzmir&apos;de oto çekici ve yol yardım sektöründe yenilikçi, güvenilir ve lider bir marka olmak.</p>
+              <p><span className="font-semibold text-blue-800">Misyonumuz:</span> 7/24 hızlı, güvenli ve kaliteli yol yardım ve çekici hizmetiyle İzmir&apos;de her zaman yanınızda olmak.</p>
             </div>
           </div>
           {/* Right: Image */}
@@ -157,7 +157,7 @@ export default function AboutPage() {
             <span className="text-blue-700 font-bold text-lg md:text-xl mb-2">Berat Ölmez</span>
           </div>
           <blockquote className="text-xl md:text-2xl font-semibold text-blue-900 mb-4 leading-relaxed">
-            "İzmir Bulut Oto Çekici ile aracım yolda kaldığında çok hızlı ve güvenilir bir hizmet aldım. Gerçekten profesyonel ve müşteri odaklı bir ekip!"
+            &quot;İzmir Bulut Oto Çekici ile aracım yolda kaldığında çok hızlı ve güvenilir bir hizmet aldım. Gerçekten profesyonel ve müşteri odaklı bir ekip!&quot;
           </blockquote>
           <div className="flex items-center justify-center space-x-1 mb-2">
             {[...Array(5)].map((_,i) => (

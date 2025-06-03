@@ -96,7 +96,7 @@ export default function GalleryPage() {
                   Profesyonel Hizmet Görüntüleri
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir'de sunduğumuz oto çekici ve yol yardım hizmetlerimizden kareler. 
+                  İzmir&apos;de sunduğumuz oto çekici ve yol yardım hizmetlerimizden kareler. 
                   Modern ekipmanlarımız ve deneyimli ekibimizle kaliteli hizmet sunuyoruz.
                 </p>
                 <a

@@ -67,7 +67,7 @@ const services = [
   },
   {
     title: "Nakliye Hizmeti",
-    description: "İzmir'deki her noktaya hızlı ve güvenli nakliye hizmeti. Modern ekipmanlarımızla taşıyoruz.",
+    description: "İzmir&apos;deki her noktaya hızlı ve güvenli nakliye hizmeti. Modern ekipmanlarımızla taşıyoruz.",
     image: "/photo/p14.jpeg",
     features: [
       "Hızlı müdahale",
