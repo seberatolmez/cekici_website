@@ -72,14 +72,14 @@ export default function GalleryPage() {
   return (
     <div className="bg-gray-50">
       {/* Page Header */}
-      <div className="relative min-h-[50vh] flex items-center overflow-hidden">
+      <div className="relative min-h-[50vh] flex items-center overflow-hidden pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/95 via-blue-800/90 to-blue-700/85" />
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left Side - Title */}
             <div className="space-y-6 text-center lg:text-left">
               <div className="inline-block">
-                <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 tracking-tight">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 tracking-tight">
                   Galeri
                 </h1>
                 <div className="h-1 w-20 bg-blue-400 mx-auto lg:mx-0 rounded-full"></div>

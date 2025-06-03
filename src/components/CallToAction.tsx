@@ -14,10 +14,10 @@ const CallToAction = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
               href={`tel:${phoneNumber.replace(/\s+/g, '')}`}
-              className="bg-white text-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-50 transition-colors inline-flex items-center justify-center"
+              className="bg-white text-blue-600 px-6 sm:px-8 py-3 rounded-md text-base sm:text-lg font-semibold hover:bg-blue-50 transition-colors inline-flex items-center justify-center whitespace-nowrap"
             >
               <svg
-                className="h-6 w-6 mr-2"
+                className="h-5 w-5 sm:h-6 sm:w-6 mr-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -35,10 +35,10 @@ const CallToAction = () => {
               href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-green-600 transition-colors inline-flex items-center justify-center"
+              className="bg-green-500 text-white px-6 sm:px-8 py-3 rounded-md text-base sm:text-lg font-semibold hover:bg-green-600 transition-colors inline-flex items-center justify-center whitespace-nowrap"
             >
               <svg
-                className="h-6 w-6 mr-2"
+                className="h-5 w-5 sm:h-6 sm:w-6 mr-2"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
