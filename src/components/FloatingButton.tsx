@@ -1,9 +1,6 @@
 'use client';
 
-import { useState } from 'react';
-
 const FloatingButton = () => {
-  const [isOpen, setIsOpen] = useState(false);
   const phoneNumber = "+90 541 676 5318";
 
   return (

@@ -15,8 +15,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold text-white mb-4">İzmir Bulut Oto Çekici</h3>
             <p className="text-sm leading-relaxed">
               İzmir Oto Çekici olarak, 7/24 profesyonel yol yardım ve oto çekici hizmetleri sunuyoruz. 
-              Deneyimli ekibimiz ve modern ekipmanlarımızla İzmir'in tüm ilçelerinde hizmetinizdeyiz. 
-          
+              Deneyimli ekibimiz ve modern ekipmanlarımızla İzmir&apos;in tüm ilçelerinde hizmetinizdeyiz. 
             </p>
             <div className="flex space-x-4">
               <a
@@ -111,20 +110,11 @@ export default function Footer() {
           {/* Working Hours */}
           <div>
             <h3 className="text-xl font-bold text-white mb-4">Çalışma Saatleri</h3>
-            <ul className="space-y-2">
-              <li className="flex items-center space-x-3">
-                <FaClock className="w-5 h-5 text-blue-400" />
-                <span>7/24 Hizmet</span>
-              </li>
-              <li className="text-sm mt-4">
-                <p className="font-semibold text-white">Acil Durumlar İçin:</p>
-                <p className="mt-1">Yılın 365 günü, günün 24 saati hizmetinizdeyiz.</p>
-              </li>
-              <li className="text-sm mt-4">
-                <p className="font-semibold text-white">Ortalama Müdahale Süresi:</p>
-                <p className="mt-1">15-20 dakika</p>
-              </li>
-            </ul>
+            <div className="space-y-2">
+              <p className="text-sm">Pazartesi - Cuma: 7/24</p>
+              <p className="text-sm">Cumartesi: 7/24</p>
+              <p className="text-sm">Pazar: 7/24</p>
+            </div>
           </div>
         </div>
 

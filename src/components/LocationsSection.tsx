@@ -40,7 +40,7 @@ export default function LocationsSection() {
             İzmir Oto Çekici Hizmet Bölgelerimiz
           </h2>
           <p className="text-lg text-gray-600 text-center">
-            İzmir'in tüm ilçelerinde 7/24 oto çekici ve yol yardım hizmeti sunuyoruz.
+            İzmir&apos;in tüm ilçelerinde 7/24 oto çekici ve yol yardım hizmeti sunuyoruz.
           </p>
         </div>
 
@@ -95,20 +95,20 @@ export default function LocationsSection() {
             </h3>
             <div className="prose prose-lg mx-auto text-gray-600">
               <p className="mb-4">
-                İzmir'in her noktasında 7/24 oto çekici ve yol yardım hizmeti sunuyoruz. 
-                Karşıyaka, Bornova, Buca, Çiğli ve Konak başta olmak üzere İzmir'in tüm ilçelerinde 
+                İzmir&apos;in her noktasında 7/24 oto çekici ve yol yardım hizmeti sunuyoruz. 
+                Karşıyaka, Bornova, Buca, Çiğli ve Konak başta olmak üzere İzmir&apos;in tüm ilçelerinde 
                 hızlı ve güvenilir çekici hizmeti veriyoruz.
               </p>
               <p className="mb-4">
                 İzmir oto çekici hizmetimizle, aracınızın güvenliğini en üst düzeyde tutarak 
                 hızlı ve etkili çözümler sağlıyoruz. Deneyimli ekibimiz ve modern ekipmanlarımızla 
-                İzmir'in her noktasında yanınızdayız.
+                İzmir&apos;in her noktasında yanınızdayız.
               </p>
               <p>
                 İzmir çekici hizmetimiz, acil durumlarınızda en kısa sürede yanınızda olmak için 
-                hazır bekliyor. Aracınızın çekilmesi veya yol yardımı gerektiğinde, İzmir'in 
+                hazır bekliyor. Aracınızın çekilmesi veya yol yardımı gerektiğinde, İzmir&apos;in 
                 her noktasına hızlı ulaşım sağlıyoruz. Güvenilir ve profesyonel çekici hizmetimizle 
-                İzmir'de yanınızdayız.
+                İzmir&apos;de yanınızdayız.
               </p>
             </div>
           </div>

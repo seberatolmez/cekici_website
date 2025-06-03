@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Metadata } from 'next';
 import CallToAction from '@/components/CallToAction';
-import { FaEnvelope, FaCheckCircle, FaShieldAlt, FaClock, FaSmile, FaTools, FaStar, FaQuestionCircle, FaBullseye } from 'react-icons/fa';
+import { FaCheckCircle, FaShieldAlt, FaClock, FaSmile, FaTools, FaStar, FaBullseye } from 'react-icons/fa';
 
 const stats = [
   { label: 'Yıllık Deneyim', value: '10+' },
@@ -12,7 +12,7 @@ const stats = [
 
 export const metadata: Metadata = {
   title: 'Hakkımızda | İzmir Oto Çekici ve Yol Yardım Hizmeti',
-  description: 'İzmir\'de 7/24 oto çekici ve yol yardım hizmeti sunan güvenilir firma. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.',
+  description: 'İzmir&apos;de 7/24 oto çekici ve yol yardım hizmeti sunan güvenilir firma. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.',
   keywords: 'izmir oto çekici, yol yardım, 7/24 çekici hizmeti, güvenilir çekici',
 };
 
@@ -31,7 +31,7 @@ export default function AboutPage() {
             </h1>
             <div className="h-1 w-20 bg-blue-400 mx-auto rounded-full mb-4"></div>
             <p className="text-xl md:text-2xl text-blue-100 font-light max-w-2xl mx-auto">
-              İzmir Bulut Oto Çekici: İzmir'de 7/24 güvenilir çekici ve yol yardım hizmeti.
+              İzmir Bulut Oto Çekici: İzmir&apos;de 7/24 güvenilir çekici ve yol yardım hizmeti.
             </p>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function AboutPage() {
             <span className="text-blue-700 font-bold text-lg md:text-xl mb-2">Berat Ölmez</span>
           </div>
           <blockquote className="text-xl md:text-2xl font-semibold text-blue-900 mb-4 leading-relaxed">
-            “İzmir Bulut Oto Çekici ile aracım yolda kaldığında çok hızlı ve güvenilir bir hizmet aldım. Gerçekten profesyonel ve müşteri odaklı bir ekip!”
+            "İzmir Bulut Oto Çekici ile aracım yolda kaldığında çok hızlı ve güvenilir bir hizmet aldım. Gerçekten profesyonel ve müşteri odaklı bir ekip!"
           </blockquote>
           <div className="flex items-center justify-center space-x-1 mb-2">
             {[...Array(5)].map((_,i) => (

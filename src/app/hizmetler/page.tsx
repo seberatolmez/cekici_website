@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import { Metadata } from 'next';
-import { FaPhone, FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
   title: 'Hizmetlerimiz | İzmir Oto Çekici ve Yol Yardım Hizmeti',
-  description: 'İzmir\'de 7/24 oto çekici, yol yardım, akü takviyesi, lastik değişimi ve araç kurtarma hizmetleri. Profesyonel ekip ve modern ekipmanlarla yanınızdayız.',
+  description: 'İzmir&apos;de 7/24 oto çekici, yol yardım, akü takviyesi, lastik değişimi ve araç kurtarma hizmetleri. Profesyonel ekip ve modern ekipmanlarla yanınızdayız.',
   keywords: 'izmir oto çekici, yol yardım, akü takviyesi, lastik değişimi, araç kurtarma, 7/24 çekici hizmeti',
 };
 
 const services = [
   {
     title: 'Oto Çekici Hizmeti',
-    description: 'İzmir\'in her noktasında 7/24 oto çekici hizmeti sunuyoruz. Modern ekipmanlarımız ve deneyimli ekibimizle araçlarınızı güvenle taşıyoruz.',
+    description: 'İzmir&apos;in her noktasında 7/24 oto çekici hizmeti sunuyoruz. Modern ekipmanlarımız ve deneyimli ekibimizle araçlarınızı güvenle taşıyoruz.',
     image: '/photo/p10.jpeg',
     features: [
       '7/24 hizmet',
@@ -23,7 +23,7 @@ const services = [
   },
   {
     title: 'Yol Yardım',
-    description: 'Yolda kaldığınızda hızlı ve güvenilir yol yardım hizmeti. İzmir\'in her noktasına ortalama 15-20 dakika içinde ulaşıyoruz.',
+    description: 'Yolda kaldığınızda hızlı ve güvenilir yol yardım hizmeti. İzmir&apos;in her noktasına ortalama 15-20 dakika içinde ulaşıyoruz.',
     image: '/photo/p12.jpeg',
     features: [
       'Hızlı müdahale',

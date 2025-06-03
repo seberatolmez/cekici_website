@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const HeroSection = () => {
   const phoneNumber = "+90 541 676 5318";
 
@@ -5,10 +7,12 @@ const HeroSection = () => {
     <div className="relative text-white">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src="/photo/p16.jpeg"
           alt="Hero Background"
-          className="w-full h-full object-cover object-[center_80%]"
+          fill
+          className="object-cover object-[center_80%]"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent"></div>
       </div>

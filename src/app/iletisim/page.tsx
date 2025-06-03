@@ -36,10 +36,10 @@ export default function ContactPage() {
             <div className="space-y-8 text-center lg:text-right">
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
-                  İzmir'in Güvenilir Yol Yardım Partneri
+                  İzmir&apos;in Güvenilir Yol Yardım Partneri
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  7/24 profesyonel oto çekici ve yol yardım hizmetleri sunuyoruz. İzmir'in tüm ilçelerinde hızlı ve güvenilir çözümler için hemen arayın. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.
+                  7/24 profesyonel oto çekici ve yol yardım hizmetleri sunuyoruz. İzmir&apos;in tüm ilçelerinde hızlı ve güvenilir çözümler için hemen arayın. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.
                 </p>
               </div>
               
@@ -147,7 +147,7 @@ export default function ContactPage() {
           <div className="bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl p-8 text-white">
             <h2 className="text-2xl font-bold mb-4">Konum</h2>
             <p className="text-purple-100 mb-6">
-              İzmir'in her noktasına hizmet veriyoruz. Bizi ziyaret edin.
+              İzmir&apos;in her noktasına hizmet veriyoruz. Bizi ziyaret edin.
             </p>
             <a
               href="https://maps.google.com"

@@ -5,7 +5,7 @@ import { FaEnvelope } from 'react-icons/fa';
 
 export const metadata: Metadata = {
   title: 'Galeri | İzmir Oto Çekici ve Yol Yardım Hizmeti',
-  description: 'İzmir\'de oto çekici ve yol yardım hizmetlerimizden görüntüler. Profesyonel ekipmanlarımız ve hizmet kalitemiz.',
+  description: 'İzmir&apos;de oto çekici ve yol yardım hizmetlerimizden görüntüler. Profesyonel ekipmanlarımız ve hizmet kalitemiz.',
   keywords: 'izmir oto çekici, yol yardım, çekici hizmeti, profesyonel ekipman',
 };
 
