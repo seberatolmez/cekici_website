@@ -3,13 +3,6 @@ import { Metadata } from 'next';
 import CallToAction from '@/components/CallToAction';
 import { FaCheckCircle, FaShieldAlt, FaClock, FaSmile, FaTools, FaStar, FaBullseye } from 'react-icons/fa';
 
-const stats = [
-  { label: 'Yıllık Deneyim', value: '10+' },
-  { label: 'Mutlu Müşteri', value: '5000+' },
-  { label: 'Başarılı Kurtarma', value: '1500+' },
-  { label: '7/24 Hizmet', value: '365' },
-];
-
 export const metadata: Metadata = {
   title: 'Hakkımızda | İzmir Oto Çekici ve Yol Yardım Hizmeti',
   description: 'İzmir&apos;de 7/24 oto çekici ve yol yardım hizmeti sunan güvenilir firma. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.',
@@ -17,8 +10,6 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  const email = "bulutyolyardim35@gmail.com";
-
   return (
     <div className="bg-gray-50">
       {/* Page Header */}
