@@ -1,12 +1,16 @@
 import Image from 'next/image';
 import { Metadata } from 'next';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
-  title: 'İzmir Oto Kurtarma Hizmetleri | 7/24 Profesyonel Araç Kurtarma',
-  description: 'İzmir&apos;de 7/24 profesyonel oto kurtarma hizmeti. Kaza, çukur veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için hızlı ve güvenli çözümler.',
-  keywords: 'izmir oto kurtarma, oto kurtarma izmir, araç kurtarma, 7/24 oto kurtarma, izmir araç kurtarma, profesyonel oto kurtarma',
+  title: 'İzmir Oto Kurtarma Hizmetleri | 7/24 Profesyonel Oto Kurtarma',
+  description: "İzmir'de 7/24 profesyonel oto kurtarma hizmeti. Kaza, çukur veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için hızlı ve güvenli çözümler.",
+  keywords: 'izmir oto kurtarma, oto kurtarma izmir, 7/24 oto kurtarma, kaza sonrası kurtarma, çukur kurtarma, mahsur kalma kurtarma, izmir oto kurtarma hizmeti',
+  openGraph: {
+    title: 'İzmir Oto Kurtarma Hizmetleri | 7/24 Profesyonel Oto Kurtarma',
+    description: "İzmir'in her noktasında 7/24 profesyonel oto kurtarma hizmeti sunuyoruz. Modern ekipmanlarımız ve deneyimli ekibimizle araçlarınızı güvenle kurtarıyoruz.",
+  }
 };
 
 const services = [
@@ -72,11 +76,10 @@ export default function OtoKurtarmaPage() {
             <div className="space-y-8 text-center lg:text-right">
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
-                  İzmir&apos;in Her Noktasında Yanınızdayız
+                  İzmir'in Her Noktasında Yanınızdayız
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel oto kurtarma hizmetleri sunuyoruz. 
-                  Kaza, çukur veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için hemen arayın.
+                  İzmir'in tüm ilçelerinde 7/24 profesyonel oto kurtarma hizmetleri sunuyoruz.
                 </p>
                 <a
                   href={`mailto:${email}`}

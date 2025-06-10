@@ -4,9 +4,9 @@ import CallToAction from '@/components/CallToAction';
 import { FaCheckCircle, FaShieldAlt, FaClock, FaSmile, FaTools, FaStar, FaBullseye } from 'react-icons/fa';
 
 export const metadata: Metadata = {
-  title: 'Hakkımızda | İzmir Oto Çekici ve Yol Yardım Hizmeti',
-  description: 'İzmir&apos;de 7/24 oto çekici ve yol yardım hizmeti sunan güvenilir firma. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.',
-  keywords: 'izmir oto çekici, yol yardım, 7/24 çekici hizmeti, güvenilir çekici',
+  title: 'Hakkımızda | İzmir Oto Çekici ve Yol Yardım Hizmetleri',
+  description: "İzmir'de 7/24 oto çekici ve yol yardım hizmeti sunan güvenilir firma. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.",
+  keywords: 'izmir oto çekici, oto çekici izmir, yol yardım, 7/24 çekici, profesyonel çekici, izmir çekici hizmeti',
 };
 
 export default function AboutPage() {
@@ -22,7 +22,7 @@ export default function AboutPage() {
             </h1>
             <div className="h-1 w-20 bg-blue-400 mx-auto rounded-full mb-4"></div>
             <p className="text-xl md:text-2xl text-blue-100 font-light max-w-2xl mx-auto">
-              İzmir Bulut Oto Çekici: İzmir&apos;de 7/24 güvenilir çekici ve yol yardım hizmeti.
+              İzmir Bulut Oto Çekici: İzmir'de 7/24 güvenilir çekici ve yol yardım hizmeti.
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function AboutPage() {
           {/* Right: SEO Paragraph */}
           <div>
             <p className="text-lg text-gray-700">
-              <span className="font-bold text-blue-800">İzmir Bulut Oto Çekici</span> olarak, İzmir oto çekici ve yol yardım sektöründe yıllardır edindiğimiz tecrübe ile, müşteri memnuniyetini ve güvenli hizmeti ön planda tutuyoruz. 7/24 kesintisiz hizmet anlayışımız, hızlı müdahale süremiz ve İzmir&apos;in tüm ilçelerine ulaşabilen geniş servis ağımız ile aracınız nerede olursa olsun yanınızdayız. Modern çekici filomuz ve uzman ekibimizle, <span className="font-semibold text-blue-800">İzmir çekici</span> ve yol yardım ihtiyaçlarınızda güvenilir çözüm ortağınız olmayı sürdürüyoruz.
+              <span className="font-bold text-blue-800">İzmir Bulut Oto Çekici</span> olarak, İzmir oto çekici ve yol yardım sektöründe yıllardır edindiğimiz tecrübe ile, müşteri memnuniyetini ve güvenli hizmeti ön planda tutuyoruz. 7/24 kesintisiz hizmet anlayışımız, hızlı müdahale süremiz ve İzmir'in tüm ilçelerine ulaşabilen geniş servis ağımız ile aracınız nerede olursa olsun yanınızdayız. Modern çekici filomuz ve uzman ekibimizle, İzmir çekici hizmetlerimizde kalite ve güveni bir araya getiriyoruz.
             </p>
           </div>
         </div>
@@ -60,8 +60,8 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-blue-900">Vizyonumuz & Misyonumuz</h2>
             </div>
             <div className="space-y-4 text-gray-700 text-lg">
-              <p><span className="font-semibold text-blue-800">Vizyonumuz:</span> İzmir&apos;de oto çekici ve yol yardım sektöründe yenilikçi, güvenilir ve lider bir marka olmak.</p>
-              <p><span className="font-semibold text-blue-800">Misyonumuz:</span> 7/24 hızlı, güvenli ve kaliteli yol yardım ve çekici hizmetiyle İzmir&apos;de her zaman yanınızda olmak.</p>
+              <p><span className="font-semibold text-blue-800">Vizyonumuz:</span> İzmir'de oto çekici ve yol yardım sektöründe yenilikçi, güvenilir ve lider bir marka olmak.</p>
+              <p><span className="font-semibold text-blue-800">Misyonumuz:</span> 7/24 hızlı, güvenli ve kaliteli yol yardım ve çekici hizmetiyle İzmir'de her zaman yanınızda olmak.</p>
             </div>
           </div>
           {/* Right: Image */}

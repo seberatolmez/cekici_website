@@ -112,10 +112,10 @@ export default function ServicesPage() {
             <div className="space-y-8 text-center lg:text-right">
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
-                  İzmir&apos;in Her Noktasında Yanınızdayız
+                  İzmir'in Her Noktasında Yanınızdayız
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel oto çekici ve yol yardım hizmetleri sunuyoruz. 
+                  İzmir'in tüm ilçelerinde 7/24 profesyonel oto çekici ve yol yardım hizmetleri sunuyoruz. 
                   Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.
                 </p>
                 <a
@@ -190,10 +190,10 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              İzmir&apos;in Tüm İlçelerinde Hizmetinizdeyiz
+              İzmir'in Tüm İlçelerinde Hizmetinizdeyiz
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              İzmir&apos;in 30 ilçesinde 7/24 oto çekici ve yol yardım hizmeti veriyoruz.
+              İzmir'in 30 ilçesinde 7/24 oto çekici ve yol yardım hizmeti veriyoruz.
               Hızlı ve güvenilir çözümler için hemen arayın.
             </p>
           </div>

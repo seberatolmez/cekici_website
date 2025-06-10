@@ -5,8 +5,14 @@ import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
   title: 'İzmir Yol Yardım Hizmetleri | 7/24 Profesyonel Yol Yardım',
-  description: 'İzmir&apos;de 7/24 profesyonel yol yardım hizmeti. Akü takviyesi, lastik değişimi, yakıt ikmali ve daha fazlası için hemen arayın. Hızlı ve güvenilir çözümler.',
+  description: "İzmir'de 7/24 profesyonel yol yardım hizmeti. Akü takviyesi, lastik değişimi, yakıt ikmali ve daha fazlası için hemen arayın. Hızlı ve güvenilir çözümler.",
   keywords: 'izmir yol yardım, yol yardım izmir, 7/24 yol yardım, akü takviyesi, lastik değişimi, yakıt ikmali, izmir yol yardım hizmeti',
+};
+
+export const openGraph = {
+  title: 'İzmir Yol Yardım Hizmetleri | 7/24 Profesyonel Yol Yardım',
+  description: "İzmir'in her noktasında 7/24 profesyonel yol yardım hizmeti sunuyoruz. Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.",
+  // ... existing code ...
 };
 
 const services = [

@@ -20,7 +20,7 @@ export default function AboutSection() {
           {/* Content Section */}
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              İzmir&apos;in Güvenilir Yol Yardım Partneri
+              İzmir'in Güvenilir Yol Yardım Partneri
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               20 yılı aşkın tecrübemizle İzmir ve çevresinde profesyonel oto çekici ve yol yardım hizmetleri sunuyoruz. Modern ekipmanlarımız ve uzman ekibimizle 7/24 yanınızdayız.

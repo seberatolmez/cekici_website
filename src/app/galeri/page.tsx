@@ -4,9 +4,9 @@ import CallToAction from '@/components/CallToAction';
 import { FaEnvelope } from 'react-icons/fa';
 
 export const metadata: Metadata = {
-  title: 'Galeri | İzmir Oto Çekici ve Yol Yardım Hizmeti',
-  description: 'İzmir&apos;de oto çekici ve yol yardım hizmetlerimizden görüntüler. Profesyonel ekipmanlarımız ve hizmet kalitemiz.',
-  keywords: 'izmir oto çekici, yol yardım, çekici hizmeti, izmir yol yardım, izmir oto çekici hizmeti',
+  title: 'Galeri | İzmir Oto Çekici ve Yol Yardım Hizmetleri',
+  description: "İzmir'de oto çekici ve yol yardım hizmetlerimizden görüntüler. Profesyonel ekipmanlarımız ve hizmet kalitemiz.",
+  keywords: 'izmir oto çekici, oto çekici izmir, yol yardım, 7/24 çekici, profesyonel çekici, izmir çekici hizmeti',
 };
 
 const images = [
@@ -96,7 +96,7 @@ export default function GalleryPage() {
                   Profesyonel Hizmet Görüntüleri
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;de sunduğumuz oto çekici ve yol yardım hizmetlerimizden kareler. 
+                  İzmir'de sunduğumuz oto çekici ve yol yardım hizmetlerimizden kareler. 
                   Modern ekipmanlarımız ve deneyimli ekibimizle kaliteli hizmet sunuyoruz.
                 </p>
                 <a

@@ -15,7 +15,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold text-white mb-4">İzmir Bulut Oto Çekici</h3>
             <p className="text-sm leading-relaxed">
               İzmir Oto Çekici olarak, 7/24 profesyonel yol yardım ve oto çekici hizmetleri sunuyoruz. 
-              Deneyimli ekibimiz ve modern ekipmanlarımızla İzmir&apos;in tüm ilçelerinde hizmetinizdeyiz. 
+              Deneyimli ekibimiz ve modern ekipmanlarımızla İzmir'in tüm ilçelerinde hizmetinizdeyiz. 
             </p>
             <div className="flex space-x-4">
               <a

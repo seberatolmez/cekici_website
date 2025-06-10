@@ -4,9 +4,9 @@ import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
-  title: 'Oto Çekici İzmir | 7/24 Profesyonel Çekici Hizmeti',
-  description: 'İzmir&apos;de 7/24 profesyonel oto çekici hizmeti. Tüm araç tipleri için güvenli ve hızlı çekici hizmeti. En yakın çekici garantisi.',
-  keywords: 'oto çekici izmir, izmir oto çekici, 7/24 çekici, profesyonel çekici, en yakın çekici, izmir çekici hizmeti',
+  title: 'Oto Çekici İzmir | 7/24 Profesyonel Oto Çekici Hizmeti',
+  description: "İzmir'de 7/24 profesyonel oto çekici hizmeti. Tüm araç tipleri için güvenli ve hızlı çekici hizmeti. En yakın çekici garantisi.",
+  keywords: 'oto çekici izmir, izmir oto çekici, 7/24 oto çekici, profesyonel oto çekici, güvenli oto çekici, hızlı oto çekici, izmir oto çekici hizmeti',
 };
 
 const services = [
@@ -23,7 +23,7 @@ const services = [
   },
   {
     title: 'En Yakın Çekici Garantisi',
-    description: 'İzmir&apos;in her noktasına en kısa sürede ulaşan çekici hizmeti. Ortalama 15-20 dakika içinde yanınızdayız.',
+    description: 'İzmir\'in her noktasına en kısa sürede ulaşan çekici hizmeti. Ortalama 15-20 dakika içinde yanınızdayız.',
     image: '/photo/p20.png',
     features: [
       'Hızlı ulaşım',
@@ -79,10 +79,10 @@ export default function OtoCekiciIzmirPage() {
             <div className="space-y-8 text-center lg:text-right">
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
-                  İzmir&apos;in Her Noktasında Yanınızdayız
+                  İzmir'in Her Noktasında Yanınızdayız
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel çekici hizmetleri sunuyoruz. 
+                  İzmir'in tüm ilçelerinde 7/24 profesyonel oto çekici hizmetleri sunuyoruz. 
                   En yakın çekici garantisi ile ortalama 15-20 dakika içinde yanınızdayız.
                 </p>
                 <a

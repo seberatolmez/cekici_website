@@ -4,9 +4,9 @@ import { FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
-  title: 'Oto Kurtarma İzmir | 7/24 Profesyonel Kurtarma Hizmeti',
-  description: 'İzmir&apos;de 7/24 profesyonel oto kurtarma hizmeti. Kaza sonrası kurtarma, çukur ve mahsur kalma durumlarında hızlı ve güvenli çözümler.',
-  keywords: 'oto kurtarma izmir, izmir oto kurtarma, 7/24 kurtarma, profesyonel kurtarma, kaza sonrası kurtarma, izmir kurtarma hizmeti',
+  title: 'Oto Kurtarma İzmir | 7/24 Profesyonel Oto Kurtarma Hizmeti',
+  description: "İzmir'de 7/24 profesyonel oto kurtarma hizmeti. Kaza sonrası kurtarma, çukur ve mahsur kalma durumlarında hızlı ve güvenli çözümler.",
+  keywords: 'oto kurtarma izmir, izmir oto kurtarma, 7/24 oto kurtarma, kaza sonrası kurtarma, çukur kurtarma, mahsur kalma kurtarma, izmir oto kurtarma hizmeti',
 };
 
 const services = [
@@ -72,10 +72,10 @@ export default function OtoKurtarmaIzmirPage() {
             <div className="space-y-8 text-center lg:text-right">
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
-                  İzmir&apos;in Her Noktasında Yanınızdayız
+                  İzmir'in Her Noktasında Yanınızdayız
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel kurtarma hizmetleri sunuyoruz. 
+                  İzmir'in tüm ilçelerinde 7/24 profesyonel kurtarma hizmetleri sunuyoruz. 
                   Kaza sonrası kurtarma, çukur ve mahsur kalma durumlarında hızlı ve güvenli çözümler için hemen arayın.
                 </p>
                 <a
@@ -157,7 +157,7 @@ export default function OtoKurtarmaIzmirPage() {
                 Oto Kurtarma İzmir hizmetimiz, şehrin her noktasında 7/24 profesyonel kurtarma hizmeti sunar. Modern kurtarma ekipmanlarımız ve uzman ekibimizle, aracınızı her türlü zor durumdan kurtarıyoruz. Kaza sonrası kurtarma, çukur ve mahsur kalma gibi acil durumlarda hızlı ve güvenli çözümler sunuyoruz.
               </p>
               <p>
-                İzmir&apos;in stratejik noktalarında konumlandırılmış kurtarma ekiplerimiz, ortalama 15-20 dakika içinde yanınızda olarak sorununuzu çözüme kavuşturur. Özel kurtarma ekipmanlarımız ve deneyimli personelimizle, aracınızı hasar riski olmadan kurtarıyoruz.
+                İzmir'in stratejik noktalarında konumlandırılmış kurtarma ekiplerimiz, ortalama 15-20 dakika içinde yanınızda olarak sorununuzu çözüme kavuşturur. Özel kurtarma ekipmanlarımız ve deneyimli personelimizle, aracınızı hasar riski olmadan kurtarıyoruz.
               </p>
               <p>
                 Oto Kurtarma İzmir olarak, müşteri memnuniyetini ön planda tutuyor, şeffaf fiyatlandırma politikamızla önceden belirlenen fiyatlar üzerinden hizmet veriyoruz. Acil durumlarınızda bize ulaşın, profesyonel kurtarma hizmetimizle yanınızda olalım.

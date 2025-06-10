@@ -5,8 +5,8 @@ import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
   title: 'İzmir Oto Çekici Hizmetleri | 7/24 Profesyonel Oto Çekici',
-  description: 'İzmir&apos;de 7/24 profesyonel oto çekici hizmeti. Tüm araç tipleri için güvenli ve hızlı çekici hizmeti. Uygun fiyat garantisi.',
-  keywords: 'izmir oto çekici, oto çekici izmir, 7/24 oto çekici, profesyonel çekici, uygun fiyat çekici, izmir oto çekici hizmeti',
+  description: "İzmir'de 7/24 profesyonel oto çekici hizmeti. Tüm araç tipleri için güvenli ve hızlı çekici hizmeti. Uygun fiyat garantisi.",
+  keywords: 'izmir oto çekici, oto çekici izmir, 7/24 oto çekici, profesyonel oto çekici, güvenli oto çekici, hızlı oto çekici, izmir oto çekici hizmeti',
 };
 
 const services = [
@@ -72,10 +72,10 @@ export default function OtoCekiciPage() {
             <div className="space-y-8 text-center lg:text-right">
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-white mb-6">
-                  İzmir&apos;in Her Noktasında Yanınızdayız
+                  İzmir'in Her Noktasında Yanınızdayız
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel oto çekici hizmetleri sunuyoruz. 
+                  İzmir'in tüm ilçelerinde 7/24 profesyonel oto çekici hizmetleri sunuyoruz. 
                   Tüm araç tipleri için güvenli ve hızlı çekici hizmeti. Uygun fiyat garantisi ile hizmetinizdeyiz.
                 </p>
                 <a
