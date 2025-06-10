@@ -35,21 +35,21 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <Link href="/" className="flex-shrink-0 flex items-center space-x-3">
-                <div className="relative h-12 w-12">
+              <Link href="/" className="flex-shrink-0 flex items-center space-x-2">
+                <div className="relative h-10 w-10 sm:h-12 sm:w-12">
                   <Image
                     src="/logo.jpeg"
                     alt="İzmir Bulut Oto Çekici"
                     fill
                     className="object-contain"
-                    sizes="(max-width: 768px) 48px, 48px"
+                    sizes="(max-width: 768px) 40px, 48px"
                   />
                 </div>
                 <div className="flex flex-col justify-center">
-                  <h1 className="text-base sm:text-lg font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent leading-tight">
+                  <h1 className="text-sm sm:text-lg font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent leading-tight">
                     İzmir Bulut Oto Çekici
                   </h1>
-                  <p className="text-xs sm:text-xs text-gray-600 leading-tight">
+                  <p className="text-[10px] sm:text-xs text-gray-600 leading-tight">
                     7/24 Yol Yardım Hizmeti
                   </p>
                 </div>
@@ -100,16 +100,16 @@ const Navbar = () => {
             </div>
 
             {/* Mobile menu button and call button */}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
               <a
                 href={`tel:${phoneNumber.replace(/\s+/g, '')}`}
-                className="md:hidden bg-blue-600 text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors whitespace-nowrap"
+                className="md:hidden bg-blue-600 text-white px-2 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors whitespace-nowrap ml-auto"
               >
                 Bize Ulaşın
               </a>
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                className="md:hidden inline-flex items-center justify-center p-1.5 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
               >
                 <span className="sr-only">Menüyü aç</span>
                 {isMenuOpen ? (
