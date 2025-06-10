@@ -4,76 +4,43 @@ import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
-  title: 'Hizmetlerimiz | İzmir Oto Çekici ve Yol Yardım Hizmeti',
-  description: 'İzmir\'de 7/24 oto çekici, yol yardım, akü takviyesi, lastik değişimi ve araç kurtarma hizmetleri. Profesyonel ekip ve modern ekipmanlarla yanınızdayız.',
-  keywords: 'izmir oto çekici, yol yardım, akü takviyesi, lastik değişimi, araç kurtarma, 7/24 çekici hizmeti',
+  title: 'Oto Çekici İzmir | 7/24 Profesyonel Çekici Hizmeti',
+  description: 'İzmir&apos;de 7/24 profesyonel oto çekici hizmeti. Tüm araç tipleri için güvenli ve hızlı çekici hizmeti. En yakın çekici garantisi.',
+  keywords: 'oto çekici izmir, izmir oto çekici, 7/24 çekici, profesyonel çekici, en yakın çekici, izmir çekici hizmeti',
 };
 
 const services = [
   {
-    title: 'Oto Çekici Hizmeti',
-    description: 'İzmir\'in her noktasında 7/24 oto çekici hizmeti sunuyoruz. Modern ekipmanlarımız ve deneyimli ekibimizle araçlarınızı güvenle taşıyoruz.',
-    image: '/photo/p10.jpeg',
+    title: 'Profesyonel Çekici Hizmeti',
+    description: 'İzmir\'in her noktasında 7/24 profesyonel çekici hizmeti sunuyoruz. Modern çekici araçlarımız ve uzman ekibimizle yanınızdayız.',
+    image: '/photo/p12.jpeg',
     features: [
       '7/24 hizmet',
       'Hızlı müdahale',
-      'Güvenli taşıma',
-      'Uygun fiyatlar'
-    ]
-  },
-  {
-    title: 'Yol Yardım',
-    description: 'Yolda kaldığınızda hızlı ve güvenilir yol yardım hizmeti. İzmir\'in her noktasına ortalama 15-20 dakika içinde ulaşıyoruz.',
-    image: '/photo/p12.jpeg',
-    features: [
-      'Hızlı müdahale',
       'Uzman ekip',
-      'Modern ekipman',
-      '7/24 hizmet'
+      'Modern ekipman'
     ]
   },
   {
-    title: 'Akü Takviyesi',
-    description: 'Akünüz bittiğinde profesyonel akü takviyesi hizmeti. Doğru ekipmanlarla güvenli ve hızlı çözüm sunuyoruz.',
+    title: 'En Yakın Çekici Garantisi',
+    description: 'İzmir&apos;in her noktasına en kısa sürede ulaşan çekici hizmeti. Ortalama 15-20 dakika içinde yanınızdayız.',
     image: '/photo/p20.png',
     features: [
-      'Profesyonel ekipman',
-      'Güvenli takviye',
-      'Hızlı müdahale',
-      '7/24 hizmet'
+      'Hızlı ulaşım',
+      '15-20 dakika',
+      '7/24 hizmet',
+      'Anlık takip'
     ]
   },
   {
-    title: 'Lastik Değişimi',
-    description: 'Lastik patlaması durumunda hızlı ve güvenli lastik değişimi hizmeti. Tüm araç tipleri için profesyonel çözüm.',
+    title: 'Güvenli Taşıma',
+    description: 'Aracınızı güvenle taşıyoruz. Modern ekipmanlar ve profesyonel ekip ile hasar riskini minimize ediyoruz.',
     image: '/photo/p13.jpeg',
     features: [
-      'Profesyonel ekipman',
-      'Güvenli değişim',
-      'Hızlı müdahale',
-      '7/24 hizmet'
-    ]
-  },
-  {
-    title: 'Araç Kurtarma',
-    description: 'Kaza, çukur veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için profesyonel kurtarma hizmeti.',
-    image: '/photo/p18.jpeg',
-    features: [
+      'Güvenli taşıma',
       'Modern ekipman',
       'Uzman ekip',
-      'Güvenli kurtarma',
-      '7/24 hizmet'
-    ]
-  },
-  {
-    title: "Nakliye Hizmeti",
-    description: "İzmir\'deki her noktaya hızlı ve güvenli nakliye hizmeti. Modern ekipmanlarımızla taşıyoruz.",
-    image: "/photo/p14.jpeg",
-    features: [
-      "Hızlı müdahale",
-      "Güvenli taşıma",
-      "Uygun fiyatlar",
-      "7/24 hizmet"
+      'Hasar garantisi'
     ]
   }
 ];
@@ -85,7 +52,7 @@ const districts = [
   "Selçuk", "Tire", "Torbalı", "Urla"
 ];
 
-export default function ServicesPage() {
+export default function OtoCekiciIzmirPage() {
   const email = "bulutyolyardim35@gmail.com";
 
   return (
@@ -99,12 +66,12 @@ export default function ServicesPage() {
             <div className="space-y-6 text-center lg:text-left">
               <div className="inline-block">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 tracking-tight">
-                  Hizmetlerimiz
+                  Oto Çekici İzmir
                 </h1>
                 <div className="h-1 w-20 bg-blue-400 mx-auto lg:mx-0 rounded-full"></div>
               </div>
               <p className="text-xl md:text-2xl text-blue-100 font-light">
-                7/24 profesyonel yol yardım hizmetleri
+                7/24 profesyonel çekici hizmetleri
               </p>
             </div>
 
@@ -115,8 +82,8 @@ export default function ServicesPage() {
                   İzmir&apos;in Her Noktasında Yanınızdayız
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel oto çekici ve yol yardım hizmetleri sunuyoruz. 
-                  Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.
+                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel çekici hizmetleri sunuyoruz. 
+                  En yakın çekici garantisi ile ortalama 15-20 dakika içinde yanınızdayız.
                 </p>
                 <a
                   href={`mailto:${email}`}
@@ -190,10 +157,10 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              İzmir&apos;in Tüm İlçelerinde Hizmetinizdeyiz
+              İzmir'in Tüm İlçelerinde Çekici Hizmeti
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              İzmir&apos;in 30 ilçesinde 7/24 oto çekici ve yol yardım hizmeti veriyoruz.
+              İzmir'in 30 ilçesinde 7/24 çekici hizmeti veriyoruz.
               Hızlı ve güvenilir çözümler için hemen arayın.
             </p>
           </div>
@@ -209,7 +176,7 @@ export default function ServicesPage() {
                   {district}
                 </h3>
                 <p className="text-sm text-gray-600">
-                  Oto Çekici Hizmeti
+                  Çekici Hizmeti
                 </p>
               </div>
             ))}

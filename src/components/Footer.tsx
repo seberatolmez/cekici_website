@@ -41,33 +41,33 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Hizmetlerimiz */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Hızlı Bağlantılar</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Hizmetlerimiz</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">
-                  Ana Sayfa
+                <Link href="/izmir-yol-yardim" className="hover:text-white transition-colors">
+                  İzmir Yol Yardım
                 </Link>
               </li>
               <li>
-                <Link href="/hizmetler" className="hover:text-white transition-colors">
-                  Hizmetlerimiz
+                <Link href="/izmir-oto-cekici" className="hover:text-white transition-colors">
+                  İzmir Oto Çekici
                 </Link>
               </li>
               <li>
-                <Link href="/hakkimizda" className="hover:text-white transition-colors">
-                  Hakkımızda
+                <Link href="/izmir-arac-kurtarma" className="hover:text-white transition-colors">
+                  İzmir Araç Kurtarma
                 </Link>
               </li>
               <li>
-                <Link href="/galeri" className="hover:text-white transition-colors">
-                  Galeri
+                <Link href="/oto-kurtarma-izmir" className="hover:text-white transition-colors">
+                  Oto Kurtarma İzmir
                 </Link>
               </li>
               <li>
-                <Link href="/iletisim" className="hover:text-white transition-colors">
-                  İletişim
+                <Link href="/oto-cekici-izmir" className="hover:text-white transition-colors">
+                  Oto Çekici İzmir
                 </Link>
               </li>
             </ul>

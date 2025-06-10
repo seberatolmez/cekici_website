@@ -7,11 +7,22 @@ import Topbar from './Topbar';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
   const phoneNumber = "+90 541 676 5318";
+
+  const serviceItems = [
+    { title: 'İzmir Çekici', path: '/hizmetler' },
+    { title: 'İzmir Yol Yardım', path: '/izmir-yol-yardim' },
+    { title: 'İzmir Oto Kurtarma', path: '/izmir-oto-kurtarma' },
+    { title: 'İzmir Araç Kurtarma', path: '/izmir-arac-kurtarma' },
+    { title: 'İzmir Oto Çekici', path: '/izmir-oto-cekici' },
+    { title: 'Oto Çekici İzmir', path: '/oto-cekici-izmir' },
+    { title: 'Oto Kurtarma İzmir', path: '/oto-kurtarma-izmir' },
+  ];
 
   const menuItems = [
     { title: 'Anasayfa', path: '/' },
-    { title: 'Hizmetler', path: '/hizmetler' },
+    { title: 'Hizmetler', path: '/hizmetler', hasDropdown: true },
     { title: 'Hakkımızda', path: '/hakkimizda' },
     { title: 'Galeri', path: '/galeri' },
     { title: 'İletişim', path: '/iletisim' },
@@ -46,15 +57,39 @@ const Navbar = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-4">
               {menuItems.map((item) => (
-                <Link
-                  key={item.path}
-                  href={item.path}
-                  className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
-                >
-                  {item.title}
-                </Link>
+                <div key={item.path} className="relative group">
+                  {item.hasDropdown ? (
+                    <div
+                      className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors cursor-pointer"
+                      onMouseEnter={() => setIsServicesOpen(true)}
+                      onMouseLeave={() => setIsServicesOpen(false)}
+                    >
+                      {item.title}
+                      {isServicesOpen && (
+                        <div className="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg py-1 z-50">
+                          {serviceItems.map((service) => (
+                            <Link
+                              key={service.path}
+                              href={service.path}
+                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                            >
+                              {service.title}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      href={item.path}
+                      className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+                    >
+                      {item.title}
+                    </Link>
+                  )}
+                </div>
               ))}
               <a
                 href={`tel:${phoneNumber.replace(/\s+/g, '')}`}
@@ -68,36 +103,24 @@ const Navbar = () => {
             <div className="flex items-center space-x-4">
               <a
                 href={`tel:${phoneNumber.replace(/\s+/g, '')}`}
-                className="md:hidden bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                className="md:hidden bg-blue-600 text-white px-3 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors whitespace-nowrap"
               >
                 Bize Ulaşın
               </a>
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none"
+                className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
               >
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  {isMenuOpen ? (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  ) : (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  )}
-                </svg>
+                <span className="sr-only">Menüyü aç</span>
+                {isMenuOpen ? (
+                  <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                )}
               </button>
             </div>
           </div>
@@ -109,14 +132,43 @@ const Navbar = () => {
         <div className="md:hidden bg-white shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {menuItems.map((item) => (
-              <Link
-                key={item.path}
-                href={item.path}
-                className="text-gray-900 hover:text-blue-600 block px-3 py-2 text-base font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {item.title}
-              </Link>
+              <div key={item.path}>
+                {item.hasDropdown ? (
+                  <div className="space-y-1">
+                    <button
+                      onClick={() => setIsServicesOpen(!isServicesOpen)}
+                      className="w-full text-left text-gray-900 hover:text-blue-600 block px-3 py-2 text-base font-medium"
+                    >
+                      {item.title}
+                    </button>
+                    {isServicesOpen && (
+                      <div className="pl-4 space-y-1">
+                        {serviceItems.map((service) => (
+                          <Link
+                            key={service.path}
+                            href={service.path}
+                            className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-blue-600"
+                            onClick={() => {
+                              setIsServicesOpen(false);
+                              setIsMenuOpen(false);
+                            }}
+                          >
+                            {service.title}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <Link
+                    href={item.path}
+                    className="text-gray-900 hover:text-blue-600 block px-3 py-2 text-base font-medium"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.title}
+                  </Link>
+                )}
+              </div>
             ))}
           </div>
         </div>

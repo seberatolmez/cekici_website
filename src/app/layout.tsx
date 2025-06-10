@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "İzmir Oto Çekici ve Yol Yardım Hizmeti | 7/24 Hizmet",
-  description: "İzmir'de 7/24 oto çekici ve yol yardım hizmeti. Akü takviyesi, lastik değişimi, araç kurtarma ve daha fazlası için hemen arayın.",
-  keywords: "izmir oto çekici, yol yardım, akü takviyesi, lastik değişimi, araç kurtarma, 7/24 çekici",
+  description: "İzmir Bulut Oto Çekici olarak oto çekici, yol yardım ve araç kurtarma hizmetinde 7/24 hızlı, güvenilir ve profesyonel destek. Yolda kaldıysanız hemen arayın!",
+  keywords: "izmir oto çekici, izmir yol yardım, Çiğli çekici , Bornova Çekici , Gaziemir Çekici , Çekici İzmir, oto kurtarma izmir",
   icons: {
     icon: '/icon.png',
     shortcut: '/icon.png',

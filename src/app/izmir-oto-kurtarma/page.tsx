@@ -4,76 +4,43 @@ import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
-  title: 'Hizmetlerimiz | İzmir Oto Çekici ve Yol Yardım Hizmeti',
-  description: 'İzmir\'de 7/24 oto çekici, yol yardım, akü takviyesi, lastik değişimi ve araç kurtarma hizmetleri. Profesyonel ekip ve modern ekipmanlarla yanınızdayız.',
-  keywords: 'izmir oto çekici, yol yardım, akü takviyesi, lastik değişimi, araç kurtarma, 7/24 çekici hizmeti',
+  title: 'İzmir Oto Kurtarma Hizmetleri | 7/24 Profesyonel Araç Kurtarma',
+  description: 'İzmir&apos;de 7/24 profesyonel oto kurtarma hizmeti. Kaza, çukur veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için hızlı ve güvenli çözümler.',
+  keywords: 'izmir oto kurtarma, oto kurtarma izmir, araç kurtarma, 7/24 oto kurtarma, izmir araç kurtarma, profesyonel oto kurtarma',
 };
 
 const services = [
   {
-    title: 'Oto Çekici Hizmeti',
-    description: 'İzmir\'in her noktasında 7/24 oto çekici hizmeti sunuyoruz. Modern ekipmanlarımız ve deneyimli ekibimizle araçlarınızı güvenle taşıyoruz.',
-    image: '/photo/p10.jpeg',
+    title: 'Oto Kurtarma Hizmeti',
+    description: 'İzmir&apos;in her noktasında 7/24 profesyonel oto kurtarma hizmeti sunuyoruz. Modern ekipmanlarımız ve deneyimli ekibimizle araçlarınızı güvenle kurtarıyoruz.',
+    image: '/photo/p18.jpeg',
     features: [
       '7/24 hizmet',
       'Hızlı müdahale',
-      'Güvenli taşıma',
-      'Uygun fiyatlar'
+      'Modern ekipman',
+      'Uzman ekip'
     ]
   },
   {
-    title: 'Yol Yardım',
-    description: 'Yolda kaldığınızda hızlı ve güvenilir yol yardım hizmeti. İzmir\'in her noktasına ortalama 15-20 dakika içinde ulaşıyoruz.',
+    title: 'Kaza Sonrası Kurtarma',
+    description: 'Kaza sonrası araçlarınız için profesyonel kurtarma hizmeti. Hassas ve güvenli bir şekilde araçlarınızı kurtarıyoruz.',
+    image: '/photo/p10.jpeg',
+    features: [
+      'Güvenli kurtarma',
+      'Hassas müdahale',
+      'Profesyonel ekip',
+      '7/24 hizmet'
+    ]
+  },
+  {
+    title: 'Çukur ve Mahsur Kalma',
+    description: 'Çukura düşen veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için hızlı kurtarma hizmeti.',
     image: '/photo/p12.jpeg',
     features: [
       'Hızlı müdahale',
-      'Uzman ekip',
       'Modern ekipman',
-      '7/24 hizmet'
-    ]
-  },
-  {
-    title: 'Akü Takviyesi',
-    description: 'Akünüz bittiğinde profesyonel akü takviyesi hizmeti. Doğru ekipmanlarla güvenli ve hızlı çözüm sunuyoruz.',
-    image: '/photo/p20.png',
-    features: [
-      'Profesyonel ekipman',
-      'Güvenli takviye',
-      'Hızlı müdahale',
-      '7/24 hizmet'
-    ]
-  },
-  {
-    title: 'Lastik Değişimi',
-    description: 'Lastik patlaması durumunda hızlı ve güvenli lastik değişimi hizmeti. Tüm araç tipleri için profesyonel çözüm.',
-    image: '/photo/p13.jpeg',
-    features: [
-      'Profesyonel ekipman',
-      'Güvenli değişim',
-      'Hızlı müdahale',
-      '7/24 hizmet'
-    ]
-  },
-  {
-    title: 'Araç Kurtarma',
-    description: 'Kaza, çukur veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için profesyonel kurtarma hizmeti.',
-    image: '/photo/p18.jpeg',
-    features: [
-      'Modern ekipman',
-      'Uzman ekip',
       'Güvenli kurtarma',
       '7/24 hizmet'
-    ]
-  },
-  {
-    title: "Nakliye Hizmeti",
-    description: "İzmir\'deki her noktaya hızlı ve güvenli nakliye hizmeti. Modern ekipmanlarımızla taşıyoruz.",
-    image: "/photo/p14.jpeg",
-    features: [
-      "Hızlı müdahale",
-      "Güvenli taşıma",
-      "Uygun fiyatlar",
-      "7/24 hizmet"
     ]
   }
 ];
@@ -85,7 +52,7 @@ const districts = [
   "Selçuk", "Tire", "Torbalı", "Urla"
 ];
 
-export default function ServicesPage() {
+export default function OtoKurtarmaPage() {
   const email = "bulutyolyardim35@gmail.com";
 
   return (
@@ -99,12 +66,12 @@ export default function ServicesPage() {
             <div className="space-y-6 text-center lg:text-left">
               <div className="inline-block">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 tracking-tight">
-                  Hizmetlerimiz
+                  İzmir Oto Kurtarma Hizmetleri
                 </h1>
                 <div className="h-1 w-20 bg-blue-400 mx-auto lg:mx-0 rounded-full"></div>
               </div>
               <p className="text-xl md:text-2xl text-blue-100 font-light">
-                7/24 profesyonel yol yardım hizmetleri
+                7/24 profesyonel oto kurtarma hizmetleri
               </p>
             </div>
 
@@ -115,8 +82,8 @@ export default function ServicesPage() {
                   İzmir&apos;in Her Noktasında Yanınızdayız
                 </h2>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel oto çekici ve yol yardım hizmetleri sunuyoruz. 
-                  Deneyimli ekibimiz ve modern ekipmanlarımızla yanınızdayız.
+                  İzmir&apos;in tüm ilçelerinde 7/24 profesyonel oto kurtarma hizmetleri sunuyoruz. 
+                  Kaza, çukur veya herhangi bir nedenden dolayı mahsur kalan araçlarınız için hemen arayın.
                 </p>
                 <a
                   href={`mailto:${email}`}
@@ -185,34 +152,24 @@ export default function ServicesPage() {
         </div>
       </div>
 
-      {/* Districts Section */}
-      <div className="bg-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              İzmir&apos;in Tüm İlçelerinde Hizmetinizdeyiz
+      {/* SEO Optimized Description Section */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-lg prose-blue mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+              İzmir Oto Kurtarma Hizmetlerimiz
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              İzmir&apos;in 30 ilçesinde 7/24 oto çekici ve yol yardım hizmeti veriyoruz.
-              Hızlı ve güvenilir çözümler için hemen arayın.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {districts.map((district, index) => (
-              <div
-                key={index}
-                className="bg-gray-50 rounded-xl p-4 text-center hover:bg-blue-50 transition-colors"
-              >
-                <FaMapMarkerAlt className="w-6 h-6 text-blue-600 mx-auto mb-2" />
-                <h3 className="text-lg font-semibold text-gray-900">
-                  {district}
-                </h3>
-                <p className="text-sm text-gray-600">
-                  Oto Çekici Hizmeti
-                </p>
-              </div>
-            ))}
+            <div className="space-y-6 text-gray-600">
+              <p>
+                İzmir Oto Kurtarma hizmetimiz, şehir genelinde 7/24 profesyonel kurtarma çözümleri sunar. Modern ekipmanlarımız ve deneyimli ekibimizle, aracınızı kaza sonrası, çukurda kalma veya mahsur kalma gibi tüm acil durumlarda güvenle kurtarıyoruz.
+              </p>
+              <p>
+                Stratejik olarak konumlandırılmış ekiplerimiz sayesinde, İzmir'in her noktasına ortalama 15-20 dakika içinde ulaşarak hızlı müdahale sağlıyoruz. Tüm araç tipleri için özel kurtarma ekipmanlarımız ve güvenli taşıma yöntemlerimizle hizmetinizdeyiz.
+              </p>
+              <p>
+                İzmir Oto Kurtarma olarak, müşteri memnuniyetini ön planda tutuyor, şeffaf fiyatlandırma politikamızla önceden belirlenen fiyatlar üzerinden hizmet veriyoruz. Acil durumlarınızda bize ulaşın, profesyonel kurtarma hizmetimizle yanınızda olalım.
+              </p>
+            </div>
           </div>
         </div>
       </div>
