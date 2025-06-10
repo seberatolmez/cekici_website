@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Metadata } from 'next';
-import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
@@ -157,7 +157,7 @@ export default function OtoKurtarmaIzmirPage() {
                 Oto Kurtarma İzmir hizmetimiz, şehrin her noktasında 7/24 profesyonel kurtarma hizmeti sunar. Modern kurtarma ekipmanlarımız ve uzman ekibimizle, aracınızı her türlü zor durumdan kurtarıyoruz. Kaza sonrası kurtarma, çukur ve mahsur kalma gibi acil durumlarda hızlı ve güvenli çözümler sunuyoruz.
               </p>
               <p>
-                İzmir'in stratejik noktalarında konumlandırılmış kurtarma ekiplerimiz, ortalama 15-20 dakika içinde yanınızda olarak sorununuzu çözüme kavuşturur. Özel kurtarma ekipmanlarımız ve deneyimli personelimizle, aracınızı hasar riski olmadan kurtarıyoruz.
+                İzmir&apos;in stratejik noktalarında konumlandırılmış kurtarma ekiplerimiz, ortalama 15-20 dakika içinde yanınızda olarak sorununuzu çözüme kavuşturur. Özel kurtarma ekipmanlarımız ve deneyimli personelimizle, aracınızı hasar riski olmadan kurtarıyoruz.
               </p>
               <p>
                 Oto Kurtarma İzmir olarak, müşteri memnuniyetini ön planda tutuyor, şeffaf fiyatlandırma politikamızla önceden belirlenen fiyatlar üzerinden hizmet veriyoruz. Acil durumlarınızda bize ulaşın, profesyonel kurtarma hizmetimizle yanınızda olalım.

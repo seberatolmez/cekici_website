@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Metadata } from 'next';
-import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
@@ -158,7 +158,7 @@ export default function YolYardimPage() {
                 İzmir Yol Yardım hizmetimiz, şehir genelinde 7/24 hızlı müdahale sağlar. 
                 Modern ekipmanlarımız ve uzman ekibimizle, aracınızın her türlü yol yardım ihtiyacına 
                 anında çözüm sunuyoruz. Akü takviyesi, lastik değişimi ve yakıt ikmali gibi temel 
-                yol yardım hizmetlerimiz, İzmir'in tüm ilçelerinde aynı kalite ve hızda sunulmaktadır.
+                yol yardım hizmetlerimiz, İzmir&apos;in tüm ilçelerinde aynı kalite ve hızda sunulmaktadır.
               </p>
               <p>
                 Profesyonel yol yardım ekibimiz, ortalama 15-20 dakika içinde yanınızda olarak 

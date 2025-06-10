@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Metadata } from 'next';
-import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata: Metadata = {
@@ -43,13 +43,6 @@ const services = [
       '7/24 hizmet'
     ]
   }
-];
-
-const districts = [
-  "Aliağa", "Balçova", "Bayındır", "Bayraklı", "Bergama", "Beydağ", "Bornova", "Buca", "Çeşme", 
-  "Çiğli", "Dikili", "Foça", "Gaziemir", "Güzelbahçe", "Karabağlar", "Karaburun", "Karşıyaka", 
-  "Kemalpaşa", "Kınık", "Kiraz", "Konak", "Menderes", "Menemen", "Narlıdere", "Ödemiş", "Seferihisar", 
-  "Selçuk", "Tire", "Torbalı", "Urla"
 ];
 
 export default function AracKurtarmaPage() {
